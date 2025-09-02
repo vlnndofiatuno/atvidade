@@ -1,0 +1,52 @@
+body{
+    
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items:  center;
+
+height: 100vh;
+
+margin: 0;
+
+flex-direction: column;
+
+    background-color: #ebe8e8;
+}
+
+h2{
+    text-align: center;
+    color: #2320cf;
+}
+
+label{
+    
+    display: block;
+    margin-top: 8px;
+    color: #2320cf;
+}
+
+#nome{
+    background-color: transparent;
+    border: double 1px #2320cf; 
+    
+}
+
+#email{
+    background-color: transparent;
+    border: double 1px #2320cf;
+}
+
+button{
+    margin-top: 15px;
+    background: #2320cf;
+    color: white;
+    border: none;
+    cursor:  pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.borda-erro{
+    border: 2px solid red;
+}
